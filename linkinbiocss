@@ -1,0 +1,372 @@
+/* Importing Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0e0b16; /* Dark space background */
+    color: #e7dfdd; /* Light text color */
+    overflow-x: hidden;
+}
+
+/* Navigation Styles */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e7dfdd;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.signup-button {
+    color: #c76b98;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-image: url('space-background.jpg'); /* Placeholder for background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero-buttons .btn {
+    margin-right: 20px;
+}
+
+/* Button Styles */
+.btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.primary-btn {
+    background-color: #c76b98;
+    color: #fff;
+}
+
+.primary-btn:hover {
+    background-color: #a6547a;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 2px solid #c76b98;
+    color: #c76b98;
+}
+
+.secondary-btn:hover {
+    background-color: #c76b98;
+    color: #fff;
+}
+
+/* Features Section Styles */
+.features {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    width: 45%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.feature-item img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    color: #b5b1b1;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    padding: 80px 50px;
+    background-color: #1f1b29;
+    color: #fff;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    width: 30%;
+    margin-bottom: 50px;
+    background-color: #2b2738;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.testimonial-item p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial-item h4 {
+    font-size: 18px;
+}
+
+.testimonial-item span {
+    font-size: 14px;
+    color: #c76b98;
+}
+
+/* Pricing Section Styles */
+.pricing {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing-plan {
+    width: 30%;
+    margin: 0 20px;
+    background-color: #1f1b29;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.pricing-plan h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pricing-plan .price {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.pricing-plan .price span {
+    font-size: 24px;
+}
+
+.pricing-plan ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.pricing-plan ul li {
+    margin-bottom: 10px;
+}
+
+.pricing-plan .btn {
+    width: 100%;
+}
+
+/* FAQ Section Styles */
+.faq {
+    padding: 80px 50px;
+    background-color: #1f1b29;
+    color: #fff;
+}
+
+.faq h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.faq-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #b5b1b1;
+}
+
+/* CTA Section Styles */
+.cta {
+    padding: 80px 50px;
+    text-align: center;
+    background-image: url('cta-background.jpg'); /* Placeholder for background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.cta h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.cta .btn {
+    font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0e0b16;
+    color: #b5b1b1;
+    padding: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #b5b1b1;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #c76b98;
+}
+
+.social-media a {
+    margin-right: 15px;
+}
+
+.social-media img {
+    width: 24px;
+}
+
+.contact-info p {
+    font-size: 14px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Responsive Styles */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content,
+    .hero-image {
+        max-width: 100%;
+    }
+
+    .feature-item,
+    .testimonial-item,
+    .pricing-plan {
+        width: 100%;
+    }
+
+    .pricing-plan {
+        margin-bottom: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links,
+    .social-media,
+    .contact-info {
+        margin-bottom: 20px;
+    }
+}
